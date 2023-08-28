@@ -4,7 +4,7 @@ from ..models import Question
 from django.db.models import Q
 
 import logging
-logger = logging.getLogger('pybo')
+logger = logging.getLogger('__name__')
 
 def index(request):
     # return HttpResponse("안녕하세요 pybo에 오신것을 환영합니다.")
