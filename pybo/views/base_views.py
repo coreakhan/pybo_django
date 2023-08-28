@@ -6,6 +6,7 @@ from django.db.models import Q
 
 def index(request):
     # return HttpResponse("안녕하세요 pybo에 오신것을 환영합니다.")
+
     page = request.GET.get('page', '1')
     kw = request.GET.get('kw', '') #검색어
 
